@@ -7,16 +7,16 @@ Wrote this as an exercise in five minutes after finding the [algo on wikibooks](
 
 This program generate a file .html where you can find a tag of type 
 
-'''javascript
+```javascript
   <img src='data:image/png;base64,eYy.....iu='\>
-...
+```
 
 i've left "png" but can be used for others graphicals files actually, because with this encoding the whole file in encoded, headers, datas, everything, and reconstructed client side by the browser as in origin.
 You can embed the resultan icon in a button like this:
 
-'''javascript
+```javascript
 <button name='exit' onclick='history.back()'><img src='data:image/png;base64,iVBOR..........................na4GvRKi7IA1NnPfvvAErgd32GJtwDAAAAAElFTkSuQmCC'/> Exit</button>
-'''
+```
 
 and with the proper style to center image and text in the button, this will be the result:
 
