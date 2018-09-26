@@ -8,7 +8,7 @@ Wrote this as an exercise in five minutes after finding the [algo on wikibooks](
 This program generate a file .html where you can find a tag of type 
 
 ```javascript
-  <img src='data:image/png;base64,eYy.....iu='\>
+  <img src='data:image/png;base64,iVBOR.....QmCC'\>
 ```
 
 i've left "png" but can be used for others graphicals files actually, because with this encoding the whole file in encoded, headers, datas, everything, and reconstructed client side by the browser as in origin.
