@@ -11,7 +11,7 @@ This program generate a file .html where you can find a tag of type
   <img src='data:image/png;base64,iVBOR.....QmCC'\>
 ```
 
-i've left "png" but can be used for others graphicals files actually, because with this encoding the whole file in encoded, headers, datas, everything, and reconstructed client side by the browser as in origin.
+i've left "png" but can be used for others graphicals files actually, because with this encoding the whole file is encoded, headers, datas, everything, and reconstructed client side by the browser as in origin.
 You can embed the resultan icon in a button like this:
 
 ```javascript
